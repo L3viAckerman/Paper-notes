@@ -1,0 +1,3 @@
+# Paper notes project
+
+- This repository is my personal paper note in many field of AI such as Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Graph processing, Optimization, ... 
