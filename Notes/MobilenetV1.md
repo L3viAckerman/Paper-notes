@@ -1,5 +1,6 @@
 # MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
 **TL,DR**: The authors presented a class of efficient models called MobileNets for mobile and embedded vision applications. Those models are based on a streamlined architecture that uses depth wise separable convolutions to build the light weight models. Beside that, the authors introduced two simple hyperparameters that controle the trade off between latency and accuracy (alpha and p).
+
 **Key points**:
 - Depth wise separable convolution is the convolution that separates the operation into 2 operation. First, convolution for each depth layer. After that, we use 1x1 convolution to combine the input in the depth dimension. The advantage of the depth wise separable convolution is that do not require much more computiation cost, reduce time and size of model.
 - The authors also representd two hyperparams for control efficiently the trade off between latancy and accuracy of model, a and p. Alpha control the size of the model, by controling the number of the filters in each layer of the model. p control the resolution of the input.
